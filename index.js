@@ -30,7 +30,7 @@ function loadData() {
   }
 }
 
-// Общие возможности
+// Загальні можливості
 program
   .command('list')
   .description('Показати стислий список персонажів')
@@ -87,7 +87,7 @@ program
     }
   });
 
-// Вариант 8: RPG-персонаж
+// Варіант 8: RPG-персонаж
 program
   .command('stats')
   .description('Показати характеристики персонажа')
